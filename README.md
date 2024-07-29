@@ -4,7 +4,7 @@ This project is a Python script that parses an HTML chat log from a game session
 
 ## Features
 
--   Parses HTML chat logs to extract dice roll information.
+-   Parses Roll20 Chat Archive HTML file to extract dice roll information.
 -   Consolidates character names based on a predefined map.
 -   Calculates statistics for each character:
     -   Total number of rolls
@@ -22,7 +22,7 @@ This project is a Python script that parses an HTML chat log from a game session
 
 ## Usage
 
-1.  Place your HTML chat log file in the project directory.
+1.  Place your HTML chat log file in the project directory. You can obtain this by saving the Chat Archive from Roll20
 2.  Update the `html_file_path` variable in the script with the name of your HTML file:
     `html_file_path = 'Chat Log for The Forge of Fury.html'` 
 3.  Run the script:
